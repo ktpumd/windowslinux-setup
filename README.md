@@ -40,11 +40,12 @@ After restart
 
 ![setup ubuntu](setup-ubuntu-wsl-windows10.jpg)
 
-```
-until finished
-```
+### Installing Git on Linux
 
-End with an example of getting some data out of the system or using it for a little demo
+1. sudo apt-get update (type sudo password after)
+2. sudo apt install git-all
+3. [Git Started](https://github.com/ktpumd/git-started)
 
+### 
 
 
