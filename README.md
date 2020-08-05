@@ -13,11 +13,17 @@ Windows Machine with Windows 10 and Admin Access
 1. Open Settings
 2. Click on Apps
 3. Under the "Related settings" section, click the Programs and Features option
-[Related Settings](apps-features-programsfeatures-option.jpg)
+
+![Related Settings](apps-features-programsfeatures-option.jpg)
+
 4. Click the Turn Windows features on or off
-[Windows Features](controlpanel-turn-windows-features-option.jpg)
+
+![Windows Features](controlpanel-turn-windows-features-option.jpg)
+
 5. Check the Windows Subsystem for Linux option
-[Check WSL](enable-windows-subsystem-linux-windows-10.jpg)
+
+![Check WSL](enable-windows-subsystem-linux-windows-10.jpg)
+
 6. Click the OK button
 7. Restart your windows machine
 
