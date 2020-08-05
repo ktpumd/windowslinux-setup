@@ -44,8 +44,11 @@ After restart
 
 1. sudo apt-get update (type sudo password after)
 2. sudo apt install git-all
-3. [Git Started](https://github.com/ktpumd/git-started)
+3. Follow [Git Started](https://github.com/ktpumd/git-started) Tutorial from KTP
 
-### 
+### Installing Visual Studio Code on Linux
+
+I highly recommend using Visual Studio Code for development on a windows machine. 
+It interacts well with linux and there are a lot of extensions to make development easier!
 
 
