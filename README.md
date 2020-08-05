@@ -51,4 +51,14 @@ After restart
 I highly recommend using Visual Studio Code for development on a windows machine. 
 It interacts well with linux and there are a lot of extensions to make development easier!
 
+1. Install Windows 10 Visual Studio Code here [Windows 10 Download](https://code.visualstudio.com/download)
+2. Once installed 
 
+![Visual Studio Code Extension Download](download-extensions.jpg)
+
+### How to Use Visual Studio Code
+
+1. Type cmd in your windows search bar and go to the directory with your programming folders
+2. Type bash and enter. The terminal should change and become username@computer-name:(directory)
+3. If you want to open visual studio code in your current directory type code .
+4. If you want to open visual studio code in a sub directory type code (directory name)
