@@ -6,23 +6,29 @@ These instructions will get you started with setting up a linux subsytem as well
 
 ### Prerequisites
 
-Windows Machine and Admin Access
+Windows Machine with Windows 10 and Admin Access
 
-```
-Give examples
-```
+### Installing Windows Subsystem Linux Setup
 
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+1. Open Settings
+2. Click on Apps
+3. Under the "Related settings" section, click the Programs and Features option
+4. Click the Turn Windows features on or off
+5. Check the Windows Subsystem for Linux option
+6. Click the OK button
+7. Restart your windows machine
 
 ```
 Give the example
 ```
 
-And repeat
+After restart
+1. Open Microsoft Store
+2. Search for Ubuntu 18.04
+3. Click the install button
+4. Click the launch button
+5. Create a username (I usually do first name)
+6. Set a password (make sure you remember you will need it for any adminstrator operations) 
 
 ```
 until finished
