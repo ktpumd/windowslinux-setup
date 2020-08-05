@@ -31,9 +31,14 @@ After restart
 1. Open Microsoft Store
 2. Search for Ubuntu 18.04
 3. Click the install button
+
+![install ubuntu](install-ubuntu-microsoftstore.jpg)
+
 4. Click the launch button
 5. Create a username (I usually do first name)
 6. Set a password (make sure you remember you will need it for any adminstrator operations) 
+
+![setup ubuntu](setup-ubuntu-wsl-windows10.jpg)
 
 ```
 until finished
