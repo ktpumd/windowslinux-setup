@@ -40,11 +40,12 @@ After restart
 
 ![setup ubuntu](setup-ubuntu-wsl-windows10.jpg)
 
-### Installing Git on Linux
+### How to Use Linux from your Command Prompt
 
-1. sudo apt-get update (type sudo password after)
-2. sudo apt install git-all
-3. Follow [Git Started](https://github.com/ktpumd/git-started) Tutorial from KTP
+1. Open up command prompt
+2. Type in bash and hit enter
+3. This should load your Ubuntu shell
+4. To logout of the linux shell and go back to windows use ctrl + d
 
 ### Installing Visual Studio Code on Linux
 
@@ -52,7 +53,8 @@ I highly recommend using Visual Studio Code for development on a windows machine
 It interacts well with linux and there are a lot of extensions to make development easier!
 
 1. Install Windows 10 Visual Studio Code here [Windows 10 Download](https://code.visualstudio.com/download)
-2. Once installed 
+2. Open Visual Studio Code and install Remote - WSL
+3. Make sure to reload Visual Studio Code after it finishes installing
 
 ![Visual Studio Code Extension Download](download-extensions.jpg)
 
@@ -62,3 +64,15 @@ It interacts well with linux and there are a lot of extensions to make developme
 2. Type bash and enter. The terminal should change and become username@computer-name:(directory)
 3. If you want to open visual studio code in your current directory type code .
 4. If you want to open visual studio code in a sub directory type code (directory name)
+5. ctrl + ` will open up a bash terminal wherever you typed code from and from here you can do all the linux commands you learned in 216
+
+
+### Installing Python on Linux
+
+### Installing Git on Linux
+
+1. Open up Ubuntu by either searching for Ubuntu or open up cmd and type in bash to load up Ubuntu
+2. sudo apt-get update (type sudo password after)
+3. sudo apt install git-all
+4. Follow [Git Started](https://github.com/ktpumd/git-started) Tutorial from KTP
+
