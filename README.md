@@ -11,7 +11,7 @@
 
 ## Getting Started
 
-These instructions will get you starte{d with setting up a linux subsytem as well as installing python and visual studio code.
+These instructions will get you started with setting up a linux subsytem as well as installing python and visual studio code.
 I will be using C:\ to represent commands in the command prompt and $ to represent commands in the ubuntu shell. Do not copy
 the C:\ and $ into your terminal.
 
