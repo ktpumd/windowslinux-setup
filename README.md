@@ -90,7 +90,7 @@ $ code programming\KTPproject
 
 ### Installing Python on Linux
 
-0. Get your build tools and python required libraries installed:
+1. Get your build tools and python required libraries installed:
 
     > See:
     > https://stackoverflow.com/questions/8097161/how-would-i-build-python-myself-from-source-code-on-ubuntu/31492697
@@ -102,7 +102,7 @@ $ code programming\KTPproject
     libreadline-dev tk tk-dev
     ```
 
-1. Install pyenv (which will install python):
+2. Install pyenv (which will install python):
     
     > See:
     > https://github.com/pyenv/pyenv-installer
@@ -111,17 +111,24 @@ $ code programming\KTPproject
     $ curl https://pyenv.run | bash
     ```
     
-2. After install, it tells you to add the following to your `~/.bashrc` file, go do that:
+3. After install, open the following file using  `code ~/.bashrc` and add this to the end:
 
     ```
     # Load pyenv automatically by adding
     # the following to ~/.bashrc:
 
-    $ export PATH="/home/{USERNAME}/.pyenv/bin:$PATH"
+    export PATH="/home/{USERNAME}/.pyenv/bin:$PATH"
     eval "$(pyenv init -)"
     eval "$(pyenv virtualenv-init -)"
+    ```
 
-3. Install the latest 'common' versions of python through pyenv:
+4. After you have added this we need to refresh the terminal this can be done by
+   
+   ```
+    $ source ~/.bashrc
+   ```
+
+5. Install the latest 'common' versions of python through pyenv:
 
      ```
      # list available python versions
@@ -130,7 +137,7 @@ $ code programming\KTPproject
      ```
      
  
-4. Install/Upgrade base libraries into both versions of python:
+6. Install/Upgrade base libraries into both versions of python:
 
     ```
     $ pyenv global 3.8.5
