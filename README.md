@@ -137,13 +137,18 @@ It interacts well with linux and there are a lot of extensions to make developme
      ```
      
  
-6. Install/Upgrade base libraries into both versions of python:
+6. Install/Upgrade for python 3.8.5
 
     ```
     $ pyenv global 3.8.5
     $ pip install pip --upgrade
     ```
 
+7. Test your global python version it should say Python 3.8.5 on the top
+   
+   ```
+   $ python
+   ```
 
 ### Installing Git on Linux
 
