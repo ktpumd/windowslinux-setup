@@ -74,17 +74,17 @@ It interacts well with linux and there are a lot of extensions to make developme
 
 1. Type cmd in your windows search bar and go to the directory with your programming folders
 2. Type bash and enter. The terminal should change and become username@computer-name:(directory)
-```
-C:\ bash
-```
+    ```
+    C:\ bash
+    ```
 1. If you want to open visual studio code in your current directory type code .
-```
-$ code .
-```
+    ```
+    $ code .
+    ```
 2. If you want to open visual studio code in a sub directory type code (directory name)
-```
-$ code programming\KTPproject
-```
+    ```
+    $ code programming\KTPproject
+    ```
 3. ctrl + ` will open up a bash terminal wherever you typed code from and from here you can do all the linux commands you learned in 216
 
 
@@ -148,9 +148,9 @@ $ code programming\KTPproject
 ### Installing Git on Linux
 
 1. Open up Ubuntu by either searching for Ubuntu or open up cmd and type in bash to load up Ubuntu
-```
-$ sudo apt-get update 
-$ sudo apt install git-all
-```
+    ```
+    $ sudo apt-get update 
+    $ sudo apt install git-all
+    ```
 3. Follow [Git Started](https://github.com/ktpumd/git-started) Tutorial from KTP
 
