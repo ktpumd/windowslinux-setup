@@ -1,12 +1,24 @@
+- [Windows Subsystem Linux Setup](#windows-subsystem-linux-setup)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installing Windows Subsystem Linux Setup](#installing-windows-subsystem-linux-setup)
+    - [How to Use Linux from your Command Prompt](#how-to-use-linux-from-your-command-prompt)
+    - [Installing Visual Studio Code on Linux](#installing-visual-studio-code-on-linux)
+    - [How to Use Visual Studio Code](#how-to-use-visual-studio-code)
+    - [Installing Python on Linux](#installing-python-on-linux)
+    - [Installing Git on Linux](#installing-git-on-linux)
 # Windows Subsystem Linux Setup
 
 ## Getting Started
 
-These instructions will get you started with setting up a linux subsytem as well as installing python and visual studio code.
+These instructions will get you starte{d with setting up a linux subsytem as well as installing python and visual studio code.
+I will be using C:\ to represent commands in the command prompt and $ to represent commands in the ubuntu shell. Do not copy
+these into your terminal.
 
 ### Prerequisites
 
 Windows Machine with Windows 10 and Admin Access
+
 
 ### Installing Windows Subsystem Linux Setup
 
@@ -61,6 +73,9 @@ It interacts well with linux and there are a lot of extensions to make developme
 ### How to Use Visual Studio Code
 
 1. Type cmd in your windows search bar and go to the directory with your programming folders
+```
+C: bash
+```
 2. Type bash and enter. The terminal should change and become username@computer-name:(directory)
 3. If you want to open visual studio code in your current directory type code .
 4. If you want to open visual studio code in a sub directory type code (directory name)
