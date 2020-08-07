@@ -73,16 +73,70 @@ It interacts well with linux and there are a lot of extensions to make developme
 ### How to Use Visual Studio Code
 
 1. Type cmd in your windows search bar and go to the directory with your programming folders
+2. Type bash and enter. The terminal should change and become username@computer-name:(directory)
 ```
 C:\ bash
 ```
-2. Type bash and enter. The terminal should change and become username@computer-name:(directory)
-3. If you want to open visual studio code in your current directory type code .
-4. If you want to open visual studio code in a sub directory type code (directory name)
-5. ctrl + ` will open up a bash terminal wherever you typed code from and from here you can do all the linux commands you learned in 216
+1. If you want to open visual studio code in your current directory type code .
+```
+$ code .
+```
+2. If you want to open visual studio code in a sub directory type code (directory name)
+```
+$ code programming\KTPproject
+```
+3. ctrl + ` will open up a bash terminal wherever you typed code from and from here you can do all the linux commands you learned in 216
 
 
 ### Installing Python on Linux
+
+0. Get your build tools and python required libraries installed:
+
+    > See:
+    > https://stackoverflow.com/questions/8097161/how-would-i-build-python-myself-from-source-code-on-ubuntu/31492697
+
+    ```
+    $ sudo apt update && sudo apt install -y build-essential git libexpat1-dev libssl-dev zlib1g-dev \
+    libncurses5-dev libbz2-dev liblzma-dev \
+    libsqlite3-dev libffi-dev tcl-dev linux-headers-generic libgdbm-dev \
+    libreadline-dev tk tk-dev
+    ```
+
+1. Install pyenv (which will install python):
+    
+    > See:
+    > https://github.com/pyenv/pyenv-installer
+    
+    ```
+    $ curl https://pyenv.run | bash
+    ```
+    
+2. After install, it tells you to add the following to your `~/.bashrc` file, go do that:
+
+    ```
+    # Load pyenv automatically by adding
+    # the following to ~/.bashrc:
+
+    $ export PATH="/home/{USERNAME}/.pyenv/bin:$PATH"
+    eval "$(pyenv init -)"
+    eval "$(pyenv virtualenv-init -)"
+
+3. Install the latest 'common' versions of python through pyenv:
+
+     ```
+     # list available python versions
+     # pyenv install --list
+     $ pyenv install 3.8.5
+     ```
+     
+ 
+4. Install/Upgrade base libraries into both versions of python:
+
+    ```
+    $ pyenv global 3.8.5
+    $ pip install pip --upgrade
+    ```
+
 
 ### Installing Git on Linux
 
